@@ -19,5 +19,5 @@ function GoToJob() {
 }
 
 function ViewContractJob() {
-    window.location.href = "../contractor_jobsview.html";
+    window.location.href = "contractor_jobsview.html";
 }
