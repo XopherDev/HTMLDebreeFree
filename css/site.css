@@ -86,7 +86,9 @@ div.wellglass{
     width:100%;
 
 	background-color: green; /*for compatibility with older browsers*/
-	background-image: linear-gradient(green,lightgreen);
+    background-image: linear-gradient(green,lightgreen);
+    
+    cursor: pointer;
 }
 
 a.glass {
