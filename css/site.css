@@ -1,9 +1,16 @@
 /* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
 for details on configuring this project to bundle and minify static web assets. */
+html {
+    position: relative;
+    min-height: 100%;
+  }
+
 body {
     /*padding-top: 50px;*/
     padding-bottom: 20px;
     background-color: #D5E8D4;
+    /* Margin bottom by footer height */
+    margin-bottom: 65px;
 }
 
 /* Wrapping element */
@@ -49,6 +56,17 @@ body {
 }
 
 
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 65px;
+    background-color: #000;
+    font-size:12px;
+    color:rgb(255, 208, 56);
+    padding-top: 6px;
+  }
 
 
 

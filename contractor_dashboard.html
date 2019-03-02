@@ -42,10 +42,10 @@
       
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">Profile</a></li>
-          <li><a href="#">Notifications</a></li>
-          <li><a href="#">History</a></li>
-          <li><a href="#">Logout</a></li>
+          <li><a href="contractor_profile.html">Profile</a></li>
+          <li><a href="contractor_notifications.html">Alerts &amp; Notifications</a></li>
+          <li><a href="contractor_history.html">History</a></li>
+          <li><a href="contractor_logout.html">Logout</a></li>
         </ul>
       </div>
     </div>
@@ -78,7 +78,7 @@
 
                     <h4 class="pageSub">Your service area and vehicle type make you eligible to bid on the following jobs:</h4>
                     Click below for details<br />
-                    <div class="well wellglass" onclick="javascript:GoToJobs();">
+                    <div class="well wellglass" onclick="javascript:ViewContractJob();">
                             <div class="row">
                                 <div class="col-xs-3 col-sm-2">
                                         <img src="images/junk_pile.png" width="80" />
@@ -90,7 +90,7 @@
                             </div>
                         </div>
 
-                        <div class="well wellglass" onclick="javascript:GoToJobs();">
+                        <div class="well wellglass" onclick="javascript:ViewContractJob();">
                                 <div class="row">
                                     <div class="col-xs-3 col-sm-2">
                                             <img src="images/junk_pile.png" width="80" />
@@ -116,7 +116,19 @@
 
 
 
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js" 
+            <footer class="footer">
+              <div class="container">
+                <p>
+                  Copyright &copy; 2019 Debreez Technologies. All rights reserved<br />
+                  <a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a><br >
+                  Version 0.0.5
+                </p>
+              </div>
+            </footer>
+
+
+
+            <script src="https://code.jquery.com/jquery-1.12.4.min.js" 
             integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" 
             crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
@@ -125,8 +137,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
             integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
             crossorigin="anonymous"></script>
-    <script src="/js/site.js?v=BxFAw9RUJ1E4NycpKEjCNDeoSvr4RPHixdBq5wDnkeY"></script>
+    <script src="js/site.js?v=BxFAw9RUJ1E4NycpKEjCNDeoSvr4RPHixdBq5wDnkeY"></script>
 
+    <script src="js/contractor_dashboard.js"></script>
     <script src="js/dashboard.js"></script>
     <script src="js/login.js"></script>
       
